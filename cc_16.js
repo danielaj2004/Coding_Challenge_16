@@ -56,3 +56,8 @@ function displayProducts(products) {
       container.appendChild(productCards); // appending product cards to a container
     });
   }
+
+  // Task 5 Reusable Error Handler
+  function handleError(error) {
+    console.error('Error Occurred:', error.message); // resuable error message
+  }
